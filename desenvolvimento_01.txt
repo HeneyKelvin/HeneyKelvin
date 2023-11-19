@@ -1,0 +1,12 @@
+A web tem sua base, sendo os clientes (dispositivos com uma conexão na internet) e os servidores (computadores 
+que armazenam páginas da web, aplicativos e sites). Quando o cliente acessa uma página da web digitando seu
+endereço no navegador, o protocolo HTTP encaminha uma solicitação para encaminhar uma cópia do site para o
+cliente, sendo enviado os uma cópia dos dados do servidor até o cliente utilizando o protocolo de rede TCP/IP.
+
+
+Abaixo, o projeto em node.js:
+
+var num1 = 10;
+var num2 = 40;
+const soma = num1 + num2;
+console.log(soma);
